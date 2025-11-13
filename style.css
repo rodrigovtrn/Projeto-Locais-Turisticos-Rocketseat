@@ -4,3 +4,52 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #f5f4f0;
+}
+
+header{
+    max-width: 800px;
+    padding: 24px;
+    margin: 40px auto;
+}
+
+img{
+    margin: 30px 0;
+    width: 750px;
+}
+
+main{
+    max-width: 800px;
+    padding: 24px;
+    margin: 40px auto;
+}
+
+
+
+p.final-txt{
+    max-width: 800px;
+    padding: 24px;
+    margin: 40px auto;
+}
+
+
+footer{
+    max-width: 800px;
+    padding: 24px;
+    margin: 40px auto;
+}
+
+
+@media screen and (max-width:800px) {
+    
+    header,
+    main,
+    p.final-txt
+    footer{
+        padding: 1%;
+    }
+    img{
+        width: 100%;
+    }
+}
