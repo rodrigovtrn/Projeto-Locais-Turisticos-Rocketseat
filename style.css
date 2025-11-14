@@ -1,3 +1,7 @@
+:root{
+    font-family: "Open Sans", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,46 +13,120 @@ body{
 }
 
 header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     max-width: 800px;
     padding: 24px;
-    margin: 40px auto;
+    margin: 40px auto 0 auto;
+    background-color: #ffffff;
+}
+
+.red-txt{
+    margin: 25px 0;
+    color: #e1624f;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 img{
-    margin: 30px 0;
+    margin: 25px 0;
     width: 750px;
+}
+
+.description-busan{
+    color: #333; 
+    font-size: 16px;
 }
 
 main{
     max-width: 800px;
     padding: 24px;
-    margin: 40px auto;
+    margin: 0px auto 20px auto;
+    background-color: #ccc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
+.description-main{
+    padding: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+h3.tittle-place{
+    font-weight: bold;
+    color: #1b1b1b;
+    font-size: 28px;
+}
+
+.description-place{
+    padding: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.bom{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+li{
+    padding-top: 5px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+li.blue{
+    color: #0c51a7; 
+}
+
+li.purple{
+    color: #591b98;
+}
+
+li.pink{
+    color: #e5245e;
+}
+
+li.orange{
+    color: #e95e10;
+}
+
 
 p.final-txt{
+    margin: 0 auto;
+    text-align: left;
     max-width: 800px;
-    padding: 24px;
-    margin: 40px auto;
+    color:#333;
+    font-size: 16px;
 }
 
 
 footer{
     max-width: 800px;
-    padding: 24px;
-    margin: 40px auto;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 16px;
+    padding: 10px;
+    border-top: #ccc 1px solid;
 }
 
+footer > a{
+    text-decoration: none;
+    font-weight: bold;
+}
 
 @media screen and (max-width:800px) {
     
-    header,
-    main,
-    p.final-txt
-    footer{
-        padding: 1%;
+    p.final-txt{
+        padding: 0 2%;
     }
+
     img{
         width: 100%;
     }
